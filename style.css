@@ -299,6 +299,8 @@ section.success {
   .slider .quote {
     font-size: 40px;
     color: rgba(24,188,156,1);
+    text-transform: uppercase;
+    font-weight: bold;
   }
   
   .slider .source {
