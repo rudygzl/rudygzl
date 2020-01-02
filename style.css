@@ -580,18 +580,36 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px rgb(0, 0, 0);
     font-size: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     background: 0 0;
     transition: all .3s ease-in-out;
+}
+
+.btn-outline2 {
+  margin-top: 15px;
+  border: solid 2px #fff;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background: 0 0;
+  transition: all .3s ease-in-out;
+}
+
+.btn-outline2:hover,
+.btn-outline2:focus,
+.btn-outline2:active,
+.btn-outline2.active {
+    border: solid 2px #fff;
+    color: #18bc9c;
+    background: #fff;
 }
 
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    border: solid 2px #18bc9c;;
     color: #18bc9c;
     background: #fff;
 }
@@ -650,6 +668,10 @@ section.success {
 
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
+}
+
+form button:hover {
+  transition-duration: 500ms;
 }
 
 footer {
