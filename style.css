@@ -774,7 +774,6 @@ footer .footer-below {
 .navbar-nav>.active>a {
     background-color: #233140 !important;
 }
-
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
