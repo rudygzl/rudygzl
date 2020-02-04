@@ -11,6 +11,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@media (max-width: 800px) {
+  .bgimg {
+    display: none;
+  }
+}
+
 body {
     overflow-x: hidden;
 }
